@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bootstrapping</title>
+	<title>Portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Open+Sans|Roboto" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> 
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
 
 	<link rel="stylesheet" href="css/style4.css">
 	<style type="text/css">
@@ -19,14 +21,24 @@
 		.abtext{
 			margin-top:50px;
 
-
+			font-size: 18px;
 		    font-family: 'Exo 2', sans-serif;
+
+
+		}
+		.ctext{
+			
+			font-size: 23px;
+		    font-family: 'Exo 2', sans-serif;
+		    padding-left: 50px;
 
 
 		}
 
 		.heading{
-			
+
+			background-color:#1d417c;			
+			color:white;
 
 	    	font-family: 'Roboto', sans-serif;
 
@@ -36,11 +48,30 @@
 
 
 		}
+
+		
+		.skillimage{
+  			object-fit: cover;
+  			margin: 20px;
+  			
+  			height:120px;
+		}
+
+		.footer{
+
+		background-color: #1c3866;
+		color: white;
+		text-align: center;
+    	font-family: 'Pacifico', cursive;
+    	font-size: 40px;
+    	padding: 30px;
+
+		}
 	</style>
 </head>
 <body>
 
-	<div class="jumbotron heading">
+	<div class="jumbotron heading" style=" ">
 		<h1 style="font-size: 60px;">Protfolio: ALAN TOM JOSE</h1>
 		<p style="font-size: 30px;">Basic Porfolio website</p>
 	</div>
@@ -54,10 +85,10 @@
 				<div class="col-sm-4 ">
 					<img src="img/index.jpeg" alt="profpic" class=" dpimage rounded-circle" >
 				</div>
-				<div class="col-sm-4 abtext" >
+				<div class="col-sm-8 abtext" >
 					<p>
 
-			A tech enthusiast with an unending itch to design. With over a year of experience, I started young in web designing. I am also a designer who is skilled in Photoshop and Lightroom</p>
+			A tech enthusiast in the bone. With over a year of experience, I was attracted to at a web designingcat a young age . I am also a designer who is skilled in Photoshop and Lightroom</p>
 					<hr>
 
 					<p>Apart making website I have interest in Android Development I have also created UI designs for websites and posters for events every now and then.
@@ -70,18 +101,50 @@
 
 			<h2 style="font-size:50px; padding:30px;">Skills</h2>
 			<div class="row">
-						
-				<div class="col-sm-4 abtext" >
-					<p>
+				<div class="col-sm-4 ">
+					<img src="img/ps.png" class="skillimage">
+				</div>	
 
-			A tech enthusiast with an unending itch to design. With over a year of experience, I started young in web designing. I am also a designer who is skilled in Photoshop and Lightroom</p>
-					<hr>
+				<div class="col-sm-4 ">
+					<img src="img/ae.png" class="skillimage">
+				</div>	
 
-					<p>Apart making website I have interest in Android Development I have also created UI designs for websites and posters for events every now and then.
-					</p>
-				</div>
+				<div class="col-sm-4 " >
+					<img src="img/bst.png" class="skillimage">
+				</div>	
+
+				
+				<div class="col-sm-4 ">
+					<img src="img/html.png" class="skillimage">
+				</div>	
+
+				<div class="col-sm-4 " >
+					<img src="img/css.png" class="skillimage">
+				</div>	
+
 			</div>
+
+			<hr>
+
+			<div >
+			<h2 style="font-size:50px; padding:30px;">Contact Me</h2>
+			<p class="ctext"> email: example@gmail.com </p>
+
+			<p class="ctext">phone: 1234567890</p>
+				
+			</div>
+
+
+			
 	</div>
+
+	<div class="footer">
+				<h1 style="font"> -- Fin -- <h1>
+				
+
+			</div>
+
+
 
 
 
